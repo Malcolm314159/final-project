@@ -2,10 +2,10 @@
 This repo contains my final project for SIBos Ruby Part Time May 2016
 
 Loading folder-sizer1.rb gives you the methods:
-  
-  directory_contents(path)
-  directory_subdirectories(path)
-  directory_size(path)
+
+directory_contents(path)
+directory_subdirectories(path)
+directory_size(path)
   
 the two .txt files are examples of dropbox folder metadata.
 Each file contains the metadata for a single dropbox folder on
