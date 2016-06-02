@@ -1,0 +1,9 @@
+{"read_only"=>false, "hash"=>"36c74f609bf54d65a614c6c12d0da9e6", "revision"=>4, "bytes"=>0, "thumb_exists"=>false, "rev"=>"4135b9a06", "modified"=>"Wed, 18 May 2016 17:37:36 +0000", "size"=>"0 bytes", "path"=>"/folder2", "is_dir"=>true, "modifier"=>nil, "root"=>"dropbox", "contents"=>
+
+[{"rev"=>"a135b9a06", "thumb_exists"=>true, "path"=>"/folder2/7489.jpeg", "is_dir"=>false, "client_mtime"=>"Wed, 18 May 2016 17:39:55 +0000", "icon"=>"page_white_picture", "read_only"=>false, "modifier"=>nil, "bytes"=>623912, "modified"=>"Wed, 18 May 2016 17:39:55 +0000", "size"=>"609.3 KB", "root"=>"dropbox", "mime_type"=>"image/jpeg", "revision"=>10}, 
+
+{"rev"=>"5135b9a06", "thumb_exists"=>false, "path"=>"/folder2/folder3", "is_dir"=>true, "icon"=>"folder", "read_only"=>false, "modifier"=>nil, "bytes"=>0, "modified"=>"Wed, 18 May 2016 17:38:06 +0000", "size"=>"0 bytes", "root"=>"dropbox", "revision"=>5}, 
+
+{"rev"=>"6135b9a06", "thumb_exists"=>false, "path"=>"/folder2/folder4", "is_dir"=>true, "icon"=>"folder", "read_only"=>false, "modifier"=>nil, "bytes"=>0, "modified"=>"Wed, 18 May 2016 17:38:13 +0000", "size"=>"0 bytes", "root"=>"dropbox", "revision"=>6}],
+
+ "icon"=>"folder"}

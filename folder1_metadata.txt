@@ -1,0 +1,11 @@
+{"read_only"=>false, "hash"=>"afed596513bf87afeb1b84935088db0c", "revision"=>3, "bytes"=>0, "thumb_exists"=>false, "rev"=>"3135b9a06", "modified"=>"Wed, 18 May 2016 17:37:30 +0000", "size"=>"0 bytes", "path"=>"/folder1", "is_dir"=>true, "modifier"=>nil, "root"=>"dropbox", "contents"=>
+
+[{"rev"=>"c135b9a06", "thumb_exists"=>true, "path"=>"/folder1/IMG_3005.JPG", "is_dir"=>false, "client_mtime"=>"Wed, 18 May 2016 17:40:42 +0000", "icon"=>"page_white_picture", "read_only"=>false, "modifier"=>nil, "bytes"=>1287196, "modified"=>"Wed, 18 May 2016 17:40:42 +0000", "size"=>"1.2 MB", "root"=>"dropbox", "mime_type"=>"image/jpeg", "revision"=>12}, 
+
+{"rev"=>"d135b9a06", "thumb_exists"=>true, "path"=>"/folder1/IMG_3051.JPG", "is_dir"=>false, "client_mtime"=>"Wed, 18 May 2016 17:40:44 +0000", "icon"=>"page_white_picture", "read_only"=>false, "modifier"=>nil, "bytes"=>1267965, "modified"=>"Wed, 18 May 2016 17:40:44 +0000", "size"=>"1.2 MB", "root"=>"dropbox", "mime_type"=>"image/jpeg", "revision"=>13},
+
+ {"rev"=>"e135b9a06", "thumb_exists"=>true, "path"=>"/folder1/IMG_3052.JPG", "is_dir"=>false, "client_mtime"=>"Wed, 18 May 2016 17:40:46 +0000", "icon"=>"page_white_picture", "read_only"=>false, "modifier"=>nil, "bytes"=>1626958, "modified"=>"Wed, 18 May 2016 17:40:46 +0000", "size"=>"1.6 MB", "root"=>"dropbox", "mime_type"=>"image/jpeg", "revision"=>14},
+
+  {"rev"=>"f135b9a06", "thumb_exists"=>true, "path"=>"/folder1/IMG_3053.JPG", "is_dir"=>false, "client_mtime"=>"Wed, 18 May 2016 17:40:48 +0000", "icon"=>"page_white_picture", "read_only"=>false, "modifier"=>nil, "bytes"=>2143516, "modified"=>"Wed, 18 May 2016 17:40:48 +0000", "size"=>"2 MB", "root"=>"dropbox", "mime_type"=>"image/jpeg", "revision"=>15}]
+
+, "icon"=>"folder"}
