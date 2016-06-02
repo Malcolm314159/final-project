@@ -5,6 +5,7 @@ access_token = 'mjyTedMka00AAAAAAAAAFJ61ChwdEvtI9wg81Ir81F7bN5HUh4siN8KX_V-tOLMw
 
 @client = DropboxClient.new(access_token)
 
+#Method for printing byte size in the appropriate units and with the appropriate number of decimal places
 def display(b)
 	if b < 1000
 		puts "#{b} bytes"
@@ -31,6 +32,7 @@ def display(b)
 	end
 end
 
+#method to get a list of the paths of the directories in a directory.
 def subdir_paths(path)
 	folder_metadata = @client.metadata(path)
 	contents = folder_metadata['contents']
@@ -44,6 +46,7 @@ def subdir_paths(path)
 	subdir_paths
 end
 
+#makes a list of paths, the paths of the contents of a directory
 def get_dir_contents(path)
 	folder_metadata = @client.metadata(path)
 	contents = folder_metadata['contents']
@@ -55,6 +58,7 @@ def get_dir_contents(path)
 	contents_paths
 end
 
+#recursively sums and returns the bytes in a directory+subdirectories
 def get_dir_size(path)
 	#get the contents of the directory
 	metadata = @client.metadata(path) #a Hash
@@ -87,6 +91,7 @@ def get_dir_size(path)
 end
 
 @calls = 0
+#gets and prints a directory size
 def directory_size(path)
 	a = get_dir_size(path)
 	display(a)
@@ -94,6 +99,7 @@ def directory_size(path)
 	return a
 end
 
+#prints the subdirectories in a directory
 def directory_subdirectories(path)
 	puts ''
 	for i in subdir_paths(path)
@@ -103,6 +109,7 @@ def directory_subdirectories(path)
 	return nil
 end
 
+#prints the contents of a directory
 def directory_contents(path)
 	puts ''
 	for i in get_dir_contents(path)
